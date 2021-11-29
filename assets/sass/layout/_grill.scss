@@ -1,0 +1,234 @@
+header{
+    grid-column-start: 1;
+    grid-column-end: 13;   
+  }
+   
+  .noticias_1{    
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+  }
+
+  .noticias_2{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end:4;
+    text-align: center;
+  }
+
+  .noticias_3{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+  }
+
+  .noticias_4{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+  }
+
+  .noticias_5{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align: center;
+  }
+
+  .noticias_6{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: center;
+  }
+  
+  .newsletter{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align: center;
+  }
+  
+  .footer{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    text-align: center;
+  }
+  
+  article{
+    display: none;
+  }
+  
+  @media (min-width: 700px) { 
+   
+
+    header{
+      grid-column-start: 1;
+      grid-column-end: 13;   
+    }
+  
+    .noticias_1{      
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      text-align: center;
+    }
+    .noticias_2{
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 2;
+      grid-row-end:3;
+      text-align: center;
+    }
+    .noticias_3{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      text-align: center;
+    }
+    .noticias_4{
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      text-align: center;
+    }
+    .noticias_5{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      text-align: center;
+    }
+    .noticias_6{
+      grid-column-start: 5;
+      grid-column-end: 9;
+      grid-row-start: 4;
+      grid-row-end:5;
+      text-align: center;
+    }
+    
+    .newsletter{
+      grid-column-start: 1;
+      grid-column-end: 13;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      text-align: center;
+    }
+    
+    .footer{
+      grid-column-start: 1;
+      grid-column-end: 13;
+      grid-row-start: 6;
+      grid-row-end: 7;
+      text-align: center;
+    }
+    article{
+      display:inline;
+    }
+  
+    article{
+      grid-column-start: 9;
+      grid-column-end: 13;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      text-align: center;
+    }
+       
+  }
+  
+   @media (min-width: 1000px) { 
+     
+     
+     header{
+      grid-column-start: 1;
+      grid-column-end: 13;   
+    }
+
+     .noticias_1{
+      
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      text-align: center;
+    }
+    .noticias_2{
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end:3;
+      text-align: center;
+    }
+    .noticias_3{
+      grid-column-start: 7;
+      grid-column-end: 10;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      text-align: center;
+    }
+    .noticias_4{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      text-align: center;
+    }
+    .noticias_5{
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      text-align: center;
+    }
+    .noticias_6{
+      grid-column-start: 7;
+      grid-column-end: 10;
+      grid-row-start: 3;
+      grid-row-end:4;
+      text-align: center;
+    }
+    
+    .newsletter{
+      grid-column-start: 1;
+      grid-column-end: 13;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      text-align: center;
+    }
+    
+    .footer{
+      grid-column-start: 1;
+      grid-column-end: 13;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      text-align: center;
+    }  
+  
+    article{
+      display:inline;
+    }
+  
+    article{
+      grid-column-start: 10;
+      grid-column-end: 13;
+      grid-row-start: 2;
+      grid-row-end: 4;      
+    }
+  
+   }
+  
